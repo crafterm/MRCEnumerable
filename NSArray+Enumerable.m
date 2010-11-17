@@ -21,22 +21,15 @@
 
 - (NSArray *)collect:(id (^)(id obj))block {
     NSMutableArray * results = [NSMutableArray arrayWithCapacity:[self count]];
-
-    for (id object in self) {
-        [results addObject:block(object)];
-    }
-
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) { [results addObject:block(obj)]; }];
     return results;
 }
 
+
 - (NSArray *)collectWithIndex:(id (^)(id obj, NSUInteger idx))block {
     NSMutableArray * results = [NSMutableArray arrayWithCapacity:[self count]];
-
-    for (int i = 0; i < [self count]; i++) {
-        [results addObject:block([self objectAtIndex:i], i)];
-    }
-
-    return results;
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) { [results addObject:block(obj, idx)]; }];
+    return results;    
 }
 
 - (id)inject:(id)m :(id (^)(id m, id obj))block {
@@ -70,24 +63,5 @@
 
     return nil;
 }
-
-//- (NSArray *)select:(BOOL (^)(id obj))block {
-//    NSMutableArray * results = [NSMutableArray arrayWithCapacity:[self count]];
-//
-//    for (id object in self) {
-//        if (block(object)) [results addObject:object];
-//    }
-//
-//    return results;
-//}
-
-//- (NSArray *)reject:(BOOL (^)(id obj))block {
-//    return [self select:^(id obj) {
-//        if (block(obj)) {
-//            return NO;
-//        }
-//        return YES;
-//    }];
-//}
 
 @end
