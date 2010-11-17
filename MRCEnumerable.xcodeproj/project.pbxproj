@@ -30,6 +30,8 @@
 		BF8329CE12929B24002BF27D /* NSArray+Select+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8329C312929B24002BF27D /* NSArray+Select+Test.m */; };
 		BF8329D012929B30002BF27D /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8329CF12929B30002BF27D /* GHUnit.framework */; };
 		BF832A0512929C12002BF27D /* Tests_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BF832A0412929C12002BF27D /* Tests_Prefix.pch */; };
+		BFC00DB81293741A00F203B3 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; };
+		BFC00DB91293741A00F203B3 /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* MRCEnumerable */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = MRCEnumerable;
 		};
 /* End PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		BF8329EF12929BD3002BF27D /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		BF832A0412929C12002BF27D /* Tests_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests_Prefix.pch; sourceTree = "<group>"; };
 		BF832A0A12929C90002BF27D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Enumerable.h"; sourceTree = "<group>"; };
+		BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Enumerable.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libMRCEnumerable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRCEnumerable.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +138,8 @@
 				BF8326E812928002002BF27D /* NSArray+Utilities.m */,
 				BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */,
 				BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */,
+				BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */,
+				BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF832A0512929C12002BF27D /* Tests_Prefix.pch in Headers */,
+				BFC00DB81293741A00F203B3 /* NSDictionary+Enumerable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +301,7 @@
 				BF8329CC12929B24002BF27D /* NSArray+Inject+Test.m in Sources */,
 				BF8329CD12929B24002BF27D /* NSArray+Reject+Test.m in Sources */,
 				BF8329CE12929B24002BF27D /* NSArray+Select+Test.m in Sources */,
+				BFC00DB91293741A00F203B3 /* NSDictionary+Enumerable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
