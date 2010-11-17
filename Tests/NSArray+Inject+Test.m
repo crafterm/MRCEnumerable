@@ -27,7 +27,7 @@
 
 - (void)testCollectShouldUseTheFirstElementInTheArrayAsTheInitialWhenNotProvided {
     NSArray * array = [NSArray arrayWithObjects:@"", @"dog", @"mouse", nil];
-    NSArray * results = [array inject:nil :^(id m, id obj) {
+    NSString * results = [array inject:nil :^(id m, id obj) {
         return (id)[m stringByAppendingString:obj];
     }];
     GHAssertEqualObjects(@"dogmouse", results, @"should be equal");
