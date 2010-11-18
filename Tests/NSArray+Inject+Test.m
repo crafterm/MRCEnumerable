@@ -13,19 +13,19 @@
 
 // it should call the block over each element, passing the results of previous block to the next
 
-- (void)testCollectShouldCallTheBlockOverEachElementPassingPreviousResultToNext {
+- (void)testInjectShouldCallTheBlockOverEachElementPassingPreviousResultToNext {
     NSArray * array = [NSArray arrayWithObjects:@"dog", @"mouse", nil];
     NSArray * results = [array inject:[NSMutableDictionary dictionary] :^(id m, id obj) {
         [m setValue:[NSString stringWithFormat:@"%d", [obj length]] forKey:obj];
         return m;
     }];
-    NSArray * expected = [NSDictionary dictionaryWithObjectsAndKeys:@"3", @"dog", @"5", @"mouse", nil];
+    NSDictionary * expected = [NSDictionary dictionaryWithObjectsAndKeys:@"3", @"dog", @"5", @"mouse", nil];
     GHAssertEqualObjects(expected, results, @"should be equal");
 }
 
 // it should use the first element in the array as the initial result when not provided
 
-- (void)testCollectShouldUseTheFirstElementInTheArrayAsTheInitialWhenNotProvided {
+- (void)testInjectShouldUseTheFirstElementInTheArrayAsTheInitialWhenNotProvided {
     NSArray * array = [NSArray arrayWithObjects:@"", @"dog", @"mouse", nil];
     NSString * results = [array inject:nil :^(id m, id obj) {
         return (id)[m stringByAppendingString:obj];
