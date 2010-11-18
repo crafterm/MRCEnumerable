@@ -3,7 +3,6 @@
 
 #import <GHUnit/GHUnit.h>
 
-#import "NSArray+Utilities.h"
-#import "NSArray+Enumerable.h"
+#import "MRCEnumerable.h"
 
 #endif
