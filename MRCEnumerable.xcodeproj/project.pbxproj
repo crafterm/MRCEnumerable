@@ -30,6 +30,10 @@
 		BF8329CE12929B24002BF27D /* NSArray+Select+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8329C312929B24002BF27D /* NSArray+Select+Test.m */; };
 		BF8329D012929B30002BF27D /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8329CF12929B30002BF27D /* GHUnit.framework */; };
 		BF832A0512929C12002BF27D /* Tests_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BF832A0412929C12002BF27D /* Tests_Prefix.pch */; };
+		BF832A2E12951E86002BF27D /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF832A2C12951E86002BF27D /* MRCEnumerable.h */; };
+		BF832A5712954EA4002BF27D /* NSDictionary+Each+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF832A5412954EA4002BF27D /* NSDictionary+Each+Test.m */; };
+		BF832A5812954EA4002BF27D /* NSDictionary+Inject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF832A5512954EA4002BF27D /* NSDictionary+Inject+Test.m */; };
+		BF832A5912954EA4002BF27D /* NSDictionary+Select+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF832A5612954EA4002BF27D /* NSDictionary+Select+Test.m */; };
 		BFC00DB81293741A00F203B3 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; };
 		BFC00DB91293741A00F203B3 /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */; };
 /* End PBXBuildFile section */
@@ -69,6 +73,10 @@
 		BF8329EF12929BD3002BF27D /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		BF832A0412929C12002BF27D /* Tests_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests_Prefix.pch; sourceTree = "<group>"; };
 		BF832A0A12929C90002BF27D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BF832A2C12951E86002BF27D /* MRCEnumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable.h; sourceTree = "<group>"; };
+		BF832A5412954EA4002BF27D /* NSDictionary+Each+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Each+Test.m"; path = "Tests/NSDictionary+Each+Test.m"; sourceTree = "<group>"; };
+		BF832A5512954EA4002BF27D /* NSDictionary+Inject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Inject+Test.m"; path = "Tests/NSDictionary+Inject+Test.m"; sourceTree = "<group>"; };
+		BF832A5612954EA4002BF27D /* NSDictionary+Select+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Select+Test.m"; path = "Tests/NSDictionary+Select+Test.m"; sourceTree = "<group>"; };
 		BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Enumerable.h"; sourceTree = "<group>"; };
 		BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Enumerable.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libMRCEnumerable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRCEnumerable.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +142,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BF832A2C12951E86002BF27D /* MRCEnumerable.h */,
 				BF8326E712928002002BF27D /* NSArray+Utilities.h */,
 				BF8326E812928002002BF27D /* NSArray+Utilities.m */,
 				BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */,
@@ -155,6 +164,10 @@
 		BF832824129285C6002BF27D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				BF832880129287C3002BF27D /* Common */,
+				BF832A5412954EA4002BF27D /* NSDictionary+Each+Test.m */,
+				BF832A5512954EA4002BF27D /* NSDictionary+Inject+Test.m */,
+				BF832A5612954EA4002BF27D /* NSDictionary+Select+Test.m */,
 				BF8329BA12929B24002BF27D /* NSArray+Collect+Test.m */,
 				BF8329BB12929B24002BF27D /* NSArray+CollectWithIndex+Test.m */,
 				BF8329BC12929B24002BF27D /* NSArray+Detect+Test.m */,
@@ -165,7 +178,6 @@
 				BF8329C112929B24002BF27D /* NSArray+Inject+Test.m */,
 				BF8329C212929B24002BF27D /* NSArray+Reject+Test.m */,
 				BF8329C312929B24002BF27D /* NSArray+Select+Test.m */,
-				BF832880129287C3002BF27D /* Common */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -197,6 +209,7 @@
 			files = (
 				BF832A0512929C12002BF27D /* Tests_Prefix.pch in Headers */,
 				BFC00DB81293741A00F203B3 /* NSDictionary+Enumerable.h in Headers */,
+				BF832A2E12951E86002BF27D /* MRCEnumerable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +315,9 @@
 				BF8329CD12929B24002BF27D /* NSArray+Reject+Test.m in Sources */,
 				BF8329CE12929B24002BF27D /* NSArray+Select+Test.m in Sources */,
 				BFC00DB91293741A00F203B3 /* NSDictionary+Enumerable.m in Sources */,
+				BF832A5712954EA4002BF27D /* NSDictionary+Each+Test.m in Sources */,
+				BF832A5812954EA4002BF27D /* NSDictionary+Inject+Test.m in Sources */,
+				BF832A5912954EA4002BF27D /* NSDictionary+Select+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
