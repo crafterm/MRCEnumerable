@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "NSArray+Utilities.h"
+#import "NSSet+Utilities.h"
 #import "NSArray+Enumerable.h"
+#import "NSSet+Enumerable.h"
 #import "NSDictionary+Enumerable.h"

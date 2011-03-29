@@ -7,7 +7,7 @@
 //
 
 #import "NSDictionary+Enumerable.h"
-
+#import "NSArray+Utilities.h"
 
 @implementation NSDictionary (Enumerable)
 
