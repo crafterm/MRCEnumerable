@@ -12,5 +12,5 @@ the extension itself.
 
 ## IN PROGRESS
 
-This project was initially started at Railscamp 8 in Perth, and currently only extends NSArray, other
-collection classes such as NSDictionary will be extended soon too. Please feel free to get in contact.
+This project was initially started at Railscamp 8 in Perth, and currently extends NSArray, NSDictionary, and NSSet.
+Feel free to get in contact if you have any suggestions or bug reports, etc.
