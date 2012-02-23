@@ -1,2 +1,11 @@
 build
 .DS_Store
+xcuserdata
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+
+*.mode1v3
+*.mode2v3
+
