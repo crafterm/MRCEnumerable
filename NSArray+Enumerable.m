@@ -44,14 +44,14 @@
 
 - (NSArray *)select:(BOOL (^)(id obj))block {
     return [self inject:[NSMutableArray array] :^(id m, id obj) {
-        if (block(obj) == YES) [m addObject:obj];
+        if (block(obj)) [m addObject:obj];
         return m;
     }];
 }
 
 - (NSArray *)reject:(BOOL (^)(id obj))block {
     return [self inject:[NSMutableArray array] :^(id m, id obj) {
-        if (block(obj) == NO) [m addObject:obj];
+        if (!block(obj)) [m addObject:obj];
         return m;
     }];
 }
