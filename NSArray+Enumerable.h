@@ -18,5 +18,7 @@
 - (NSArray *)select:(BOOL (^)(id obj))block;
 - (NSArray *)reject:(BOOL (^)(id obj))block;
 - (id)detect:(BOOL (^)(id obj))block;
+- (NSInteger)findIndex:(id)obj;
+- (NSInteger)findIndexWithBlock:(BOOL (^)(id obj))block;
 
 @end

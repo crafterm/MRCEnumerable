@@ -64,4 +64,21 @@
     return nil;
 }
 
+- (NSInteger)findIndex:(id)obj {
+    return [self findIndexWithBlock:^BOOL(id candidate) {
+        return candidate == obj;
+    }];
+}
+
+- (NSInteger)findIndexWithBlock:(BOOL (^)(id obj))block {
+    for (NSUInteger i = 0; i < [self count]; i++) {
+        id candidate = [self objectAtIndex:i];
+        if (block(candidate)) {
+            return i;
+        }
+    }
+
+    return -1;
+}
+
 @end

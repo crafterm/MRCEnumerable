@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		BF14D46614FAE96B00501118 /* NSArray+FindIndex+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */; };
 		BF1F91DE1341BD8F00F37598 /* NSSet+Collect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91D41341BD8F00F37598 /* NSSet+Collect+Test.m */; };
 		BF1F91DF1341BD8F00F37598 /* NSSet+CollectWithIndex+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91D51341BD8F00F37598 /* NSSet+CollectWithIndex+Test.m */; };
 		BF1F91E01341BD8F00F37598 /* NSSet+Detect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91D61341BD8F00F37598 /* NSSet+Detect+Test.m */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FindIndex+Test.m"; path = "Tests/NSArray+FindIndex+Test.m"; sourceTree = "<group>"; };
 		BF1F91D41341BD8F00F37598 /* NSSet+Collect+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Collect+Test.m"; path = "Tests/NSSet+Collect+Test.m"; sourceTree = "<group>"; };
 		BF1F91D51341BD8F00F37598 /* NSSet+CollectWithIndex+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+CollectWithIndex+Test.m"; path = "Tests/NSSet+CollectWithIndex+Test.m"; sourceTree = "<group>"; };
 		BF1F91D61341BD8F00F37598 /* NSSet+Detect+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Detect+Test.m"; path = "Tests/NSSet+Detect+Test.m"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				BF8329C112929B24002BF27D /* NSArray+Inject+Test.m */,
 				BF8329C212929B24002BF27D /* NSArray+Reject+Test.m */,
 				BF8329C312929B24002BF27D /* NSArray+Select+Test.m */,
+				BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */,
 			);
 			name = NSArray;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				BF1F91E51341BD8F00F37598 /* NSSet+Inject+Test.m in Sources */,
 				BF1F91E61341BD8F00F37598 /* NSSet+Reject+Test.m in Sources */,
 				BF1F91E71341BD8F00F37598 /* NSSet+Select+Test.m in Sources */,
+				BF14D46614FAE96B00501118 /* NSArray+FindIndex+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
