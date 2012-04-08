@@ -337,7 +337,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MRCEnumerable" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -445,6 +445,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MRCEnumerable_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
@@ -468,6 +469,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MRCEnumerable_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
@@ -484,6 +486,7 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -502,6 +505,7 @@
 					armv6,
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -528,6 +532,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tests_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -558,6 +563,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tests_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
