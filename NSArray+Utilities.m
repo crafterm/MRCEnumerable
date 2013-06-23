@@ -20,4 +20,20 @@
     return [self count] == 0;
 }
 
+- (NSString *)join {
+    return [self join:nil];
+}
+
+- (NSString *)join:(NSString *)separator {
+    NSMutableString * result = [NSMutableString stringWithCapacity:10];
+    NSUInteger numberOfElements = [self count];
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [result appendString:obj];
+        if (separator && (idx + 1) < numberOfElements) {
+            [result appendString:separator];
+        }
+    }];
+    return result;
+}
+
 @end

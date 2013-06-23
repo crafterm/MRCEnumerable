@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		BF0A91FB1776C76000C461D2 /* NSArray+Join+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */; };
 		BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */; };
 		BF1F91EB1341BF4B00F37598 /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */; };
 		BF4A33431776BA0B00D73643 /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
@@ -84,6 +85,7 @@
 /* Begin PBXFileReference section */
 		AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Join+Test.m"; sourceTree = "<group>"; };
 		BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Utilities.h"; sourceTree = "<group>"; };
 		BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Utilities.m"; sourceTree = "<group>"; };
 		BF4B20561776AFD00046078A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -257,6 +259,7 @@
 				BF98AF071776B8FE0094B77C /* NSArray+Inject+Test.m */,
 				BF98AF081776B8FE0094B77C /* NSArray+Reject+Test.m */,
 				BF98AF091776B8FE0094B77C /* NSArray+Select+Test.m */,
+				BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */,
 				BF98AEC61776B8BE0094B77C /* Supporting Files */,
 			);
 			name = NSArray;
@@ -500,6 +503,7 @@
 				BF98AF141776B8FE0094B77C /* NSArray+Select+Test.m in Sources */,
 				BF98AF101776B8FE0094B77C /* NSArray+FindIndex+Test.m in Sources */,
 				BF98AF121776B8FE0094B77C /* NSArray+Inject+Test.m in Sources */,
+				BF0A91FB1776C76000C461D2 /* NSArray+Join+Test.m in Sources */,
 				BF98AF0A1776B8FE0094B77C /* NSArray+Collect+Test.m in Sources */,
 				BF98AF0B1776B8FE0094B77C /* NSArray+CollectWithIndex+Test.m in Sources */,
 				BF98AF0D1776B8FE0094B77C /* NSArray+Each+Test.m in Sources */,

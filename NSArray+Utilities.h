@@ -13,5 +13,7 @@
 
 - (id)firstObject;
 - (BOOL)empty;
+- (NSString *)join;
+- (NSString *)join:(NSString *)separator;
 
 @end
