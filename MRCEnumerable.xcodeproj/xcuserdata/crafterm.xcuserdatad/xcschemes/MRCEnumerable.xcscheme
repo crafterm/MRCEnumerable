@@ -38,6 +38,36 @@
                ReferencedContainer = "container:MRCEnumerable.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF98AEC01776B8BE0094B77C"
+               BuildableName = "NSArray.xctest"
+               BlueprintName = "Tests/NSArray"
+               ReferencedContainer = "container:MRCEnumerable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF98AED61776B8C60094B77C"
+               BuildableName = "NSDictionary.xctest"
+               BlueprintName = "Tests/NSDictionary"
+               ReferencedContainer = "container:MRCEnumerable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF98AEEC1776B8CD0094B77C"
+               BuildableName = "NSSet.xctest"
+               BlueprintName = "Tests/NSSet"
+               ReferencedContainer = "container:MRCEnumerable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
