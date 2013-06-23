@@ -43,27 +43,12 @@
 		BF8326E012927FB0002BF27D /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */; };
 		BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326E712928002002BF27D /* NSArray+Utilities.h */; };
 		BF8326EA12928002002BF27D /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326E812928002002BF27D /* NSArray+Utilities.m */; };
-		BF83281C1292857B002BF27D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		BF83281D1292857B002BF27D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF83274E12928536002BF27D /* UIKit.framework */; };
-		BF83281E1292857B002BF27D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF83274B12928536002BF27D /* CoreGraphics.framework */; };
-		BF83289B129288F4002BF27D /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
-		BF832A2E12951E86002BF27D /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF832A2C12951E86002BF27D /* MRCEnumerable.h */; };
-		BFC00DB81293741A00F203B3 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; };
-		BFC00DB91293741A00F203B3 /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */; };
-		BFFFBCB1133F412E00F4949D /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */; };
 		BFFFBCB3133F434C00F4949D /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB0133F412D00F4949D /* NSSet+Enumerable.m */; };
 		BFFFBCB4133F435300F4949D /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		BF4B20631776AFD00046078A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = MRCEnumerable;
-		};
-		BF83283412928611002BF27D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
@@ -109,7 +94,6 @@
 		BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerable.m"; sourceTree = "<group>"; };
 		BF8326E712928002002BF27D /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
 		BF8326E812928002002BF27D /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
-		BF83272712928493002BF27D /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF83274B12928536002BF27D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BF83274E12928536002BF27D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF832A0A12929C90002BF27D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -133,17 +117,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF83272512928493002BF27D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF83281C1292857B002BF27D /* Foundation.framework in Frameworks */,
-				BF83281D1292857B002BF27D /* UIKit.framework in Frameworks */,
-				BF83281E1292857B002BF27D /* CoreGraphics.framework in Frameworks */,
-				BF83289B129288F4002BF27D /* libMRCEnumerable.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libMRCEnumerable.a */,
-				BF83272712928493002BF27D /* Tests.app */,
 				BF4B20551776AFD00046078A /* MRCEnumerableTests.xctest */,
 			);
 			name = Products;
@@ -283,16 +255,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BF83286F12928714002BF27D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFC00DB81293741A00F203B3 /* NSDictionary+Enumerable.h in Headers */,
-				BF832A2E12951E86002BF27D /* MRCEnumerable.h in Headers */,
-				BFFFBCB1133F412E00F4949D /* NSSet+Enumerable.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,25 +286,6 @@
 			productName = MRCEnumerableTests;
 			productReference = BF4B20551776AFD00046078A /* MRCEnumerableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BF83272612928493002BF27D /* Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF83272C12928494002BF27D /* Build configuration list for PBXNativeTarget "Tests" */;
-			buildPhases = (
-				BF83286F12928714002BF27D /* Headers */,
-				BF83272312928493002BF27D /* Resources */,
-				BF83272412928493002BF27D /* Sources */,
-				BF83272512928493002BF27D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF83283512928611002BF27D /* PBXTargetDependency */,
-			);
-			name = Tests;
-			productName = Tests;
-			productReference = BF83272712928493002BF27D /* Tests.app */;
-			productType = "com.apple.product-type.application";
 		};
 		D2AAC07D0554694100DB518D /* MRCEnumerable */ = {
 			isa = PBXNativeTarget;
@@ -391,7 +334,6 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* MRCEnumerable */,
-				BF83272612928493002BF27D /* Tests */,
 				BF4B20541776AFD00046078A /* MRCEnumerableTests */,
 			);
 		};
@@ -403,13 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4B205F1776AFD00046078A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF83272312928493002BF27D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +381,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF83272412928493002BF27D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFC00DB91293741A00F203B3 /* NSDictionary+Enumerable.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,11 +400,6 @@
 			isa = PBXTargetDependency;
 			target = D2AAC07D0554694100DB518D /* MRCEnumerable */;
 			targetProxy = BF4B20631776AFD00046078A /* PBXContainerItemProxy */;
-		};
-		BF83283512928611002BF27D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* MRCEnumerable */;
-			targetProxy = BF83283412928611002BF27D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -656,70 +578,6 @@
 			};
 			name = Release;
 		};
-		BF83272A12928494002BF27D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../workspace/iphone/gh-unit/Project-IPhone/build/Framework\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Vendor\"",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Tests_Prefix.pch;
-				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "Tests-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					UIKit,
-					"-all_load",
-					"-ObjC",
-				);
-				PRODUCT_NAME = Tests;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		BF83272B12928494002BF27D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../workspace/iphone/gh-unit/Project-IPhone/build/Framework\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Vendor\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Tests_Prefix.pch;
-				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "Tests-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					UIKit,
-					"-all_load",
-					"-ObjC",
-				);
-				PRODUCT_NAME = Tests;
-				SDKROOT = iphoneos;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,15 +604,6 @@
 			buildConfigurations = (
 				BF4B20661776AFD00046078A /* Debug */,
 				BF4B20671776AFD00046078A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF83272C12928494002BF27D /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF83272A12928494002BF27D /* Debug */,
-				BF83272B12928494002BF27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
