@@ -10,15 +10,20 @@
 		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF0A91FB1776C76000C461D2 /* NSArray+Join+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */; };
-		BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */; };
-		BF1F91EB1341BF4B00F37598 /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */; };
+		BF42C87F177EF8340057E88B /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C874177EF8340057E88B /* MRCEnumerable.h */; };
+		BF42C880177EF8340057E88B /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C875177EF8340057E88B /* NSArray+Enumerable.h */; };
+		BF42C881177EF8340057E88B /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C876177EF8340057E88B /* NSArray+Enumerable.m */; };
+		BF42C882177EF8340057E88B /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C877177EF8340057E88B /* NSArray+Utilities.h */; };
+		BF42C883177EF8340057E88B /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C878177EF8340057E88B /* NSArray+Utilities.m */; };
+		BF42C884177EF8340057E88B /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */; };
+		BF42C885177EF8340057E88B /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87A177EF8340057E88B /* NSDictionary+Enumerable.m */; };
+		BF42C886177EF8340057E88B /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */; };
+		BF42C887177EF8340057E88B /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87C177EF8340057E88B /* NSSet+Enumerable.m */; };
+		BF42C888177EF8340057E88B /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87D177EF8340057E88B /* NSSet+Utilities.h */; };
+		BF42C889177EF8340057E88B /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87E177EF8340057E88B /* NSSet+Utilities.m */; };
 		BF4A33431776BA0B00D73643 /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
 		BF4A33441776BA0E00D73643 /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
 		BF4A33451776BA1200D73643 /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
-		BF8326DF12927FB0002BF27D /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */; };
-		BF8326E012927FB0002BF27D /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */; };
-		BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326E712928002002BF27D /* NSArray+Utilities.h */; };
-		BF8326EA12928002002BF27D /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326E812928002002BF27D /* NSArray+Utilities.m */; };
 		BF98AEC21776B8BE0094B77C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4B20561776AFD00046078A /* XCTest.framework */; };
 		BF98AEC31776B8BE0094B77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF98AEC41776B8BE0094B77C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF83274E12928536002BF27D /* UIKit.framework */; };
@@ -54,8 +59,6 @@
 		BF98AF2A1776B9210094B77C /* NSSet+Inject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98AF211776B9210094B77C /* NSSet+Inject+Test.m */; };
 		BF98AF2B1776B9210094B77C /* NSSet+Reject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98AF221776B9210094B77C /* NSSet+Reject+Test.m */; };
 		BF98AF2C1776B9210094B77C /* NSSet+Select+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98AF231776B9210094B77C /* NSSet+Select+Test.m */; };
-		BFFFBCB3133F434C00F4949D /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB0133F412D00F4949D /* NSSet+Enumerable.m */; };
-		BFFFBCB4133F435300F4949D /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,17 +89,22 @@
 		AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Join+Test.m"; sourceTree = "<group>"; };
-		BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Utilities.h"; sourceTree = "<group>"; };
-		BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Utilities.m"; sourceTree = "<group>"; };
+		BF42C872177EF5F90057E88B /* MRCEnumerable.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MRCEnumerable.podspec; sourceTree = "<group>"; };
+		BF42C874177EF8340057E88B /* MRCEnumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable.h; sourceTree = "<group>"; };
+		BF42C875177EF8340057E88B /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
+		BF42C876177EF8340057E88B /* NSArray+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerable.m"; sourceTree = "<group>"; };
+		BF42C877177EF8340057E88B /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
+		BF42C878177EF8340057E88B /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
+		BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Enumerable.h"; sourceTree = "<group>"; };
+		BF42C87A177EF8340057E88B /* NSDictionary+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Enumerable.m"; sourceTree = "<group>"; };
+		BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Enumerable.h"; sourceTree = "<group>"; };
+		BF42C87C177EF8340057E88B /* NSSet+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Enumerable.m"; sourceTree = "<group>"; };
+		BF42C87D177EF8340057E88B /* NSSet+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Utilities.h"; sourceTree = "<group>"; };
+		BF42C87E177EF8340057E88B /* NSSet+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Utilities.m"; sourceTree = "<group>"; };
 		BF4B20561776AFD00046078A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
-		BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerable.m"; sourceTree = "<group>"; };
-		BF8326E712928002002BF27D /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
-		BF8326E812928002002BF27D /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
 		BF83274B12928536002BF27D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BF83274E12928536002BF27D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF832A0A12929C90002BF27D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		BF832A2C12951E86002BF27D /* MRCEnumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable.h; sourceTree = "<group>"; };
 		BF98AEC11776B8BE0094B77C /* Tests/NSArray.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests/NSArray.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF98AEC71776B8BE0094B77C /* NSArray-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NSArray-Info.plist"; path = "Tests/NSArray-Info.plist"; sourceTree = "<group>"; };
 		BF98AEC91776B8BE0094B77C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -132,10 +140,6 @@
 		BF98AF211776B9210094B77C /* NSSet+Inject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Inject+Test.m"; sourceTree = "<group>"; };
 		BF98AF221776B9210094B77C /* NSSet+Reject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Reject+Test.m"; sourceTree = "<group>"; };
 		BF98AF231776B9210094B77C /* NSSet+Select+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Select+Test.m"; sourceTree = "<group>"; };
-		BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Enumerable.h"; sourceTree = "<group>"; };
-		BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Enumerable.m"; sourceTree = "<group>"; };
-		BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Enumerable.h"; sourceTree = "<group>"; };
-		BFFFBCB0133F412D00F4949D /* NSSet+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Enumerable.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libMRCEnumerable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRCEnumerable.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -198,12 +202,13 @@
 		0867D691FE84028FC02AAC07 /* MRCEnumerable */ = {
 			isa = PBXGroup;
 			children = (
-				08FB77AEFE84172EC02AAC07 /* Classes */,
+				BF42C873177EF8340057E88B /* Classes */,
 				BF98AF2D1776B92B0094B77C /* Tests */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				BF832A0A12929C90002BF27D /* README.md */,
+				BF42C872177EF5F90057E88B /* MRCEnumerable.podspec */,
 			);
 			name = MRCEnumerable;
 			sourceTree = "<group>";
@@ -219,30 +224,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		08FB77AEFE84172EC02AAC07 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BF832A2C12951E86002BF27D /* MRCEnumerable.h */,
-				BF8326E712928002002BF27D /* NSArray+Utilities.h */,
-				BF8326E812928002002BF27D /* NSArray+Utilities.m */,
-				BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */,
-				BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */,
-				BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */,
-				BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */,
-				BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */,
-				BFFFBCB0133F412D00F4949D /* NSSet+Enumerable.m */,
-				BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */,
-				BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
 				AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BF42C873177EF8340057E88B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF42C874177EF8340057E88B /* MRCEnumerable.h */,
+				BF42C875177EF8340057E88B /* NSArray+Enumerable.h */,
+				BF42C876177EF8340057E88B /* NSArray+Enumerable.m */,
+				BF42C877177EF8340057E88B /* NSArray+Utilities.h */,
+				BF42C878177EF8340057E88B /* NSArray+Utilities.m */,
+				BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */,
+				BF42C87A177EF8340057E88B /* NSDictionary+Enumerable.m */,
+				BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */,
+				BF42C87C177EF8340057E88B /* NSSet+Enumerable.m */,
+				BF42C87D177EF8340057E88B /* NSSet+Utilities.h */,
+				BF42C87E177EF8340057E88B /* NSSet+Utilities.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BF98AEC51776B8BE0094B77C /* NSArray */ = {
@@ -343,10 +348,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF42C882177EF8340057E88B /* NSArray+Utilities.h in Headers */,
+				BF42C888177EF8340057E88B /* NSSet+Utilities.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */,
-				BF8326DF12927FB0002BF27D /* NSArray+Enumerable.h in Headers */,
-				BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */,
-				BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */,
+				BF42C880177EF8340057E88B /* NSArray+Enumerable.h in Headers */,
+				BF42C87F177EF8340057E88B /* MRCEnumerable.h in Headers */,
+				BF42C886177EF8340057E88B /* NSSet+Enumerable.h in Headers */,
+				BF42C884177EF8340057E88B /* NSDictionary+Enumerable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,11 +552,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFFBCB4133F435300F4949D /* NSDictionary+Enumerable.m in Sources */,
-				BFFFBCB3133F434C00F4949D /* NSSet+Enumerable.m in Sources */,
-				BF8326E012927FB0002BF27D /* NSArray+Enumerable.m in Sources */,
-				BF8326EA12928002002BF27D /* NSArray+Utilities.m in Sources */,
-				BF1F91EB1341BF4B00F37598 /* NSSet+Utilities.m in Sources */,
+				BF42C881177EF8340057E88B /* NSArray+Enumerable.m in Sources */,
+				BF42C887177EF8340057E88B /* NSSet+Enumerable.m in Sources */,
+				BF42C883177EF8340057E88B /* NSArray+Utilities.m in Sources */,
+				BF42C885177EF8340057E88B /* NSDictionary+Enumerable.m in Sources */,
+				BF42C889177EF8340057E88B /* NSSet+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +654,7 @@
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -663,6 +672,7 @@
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
