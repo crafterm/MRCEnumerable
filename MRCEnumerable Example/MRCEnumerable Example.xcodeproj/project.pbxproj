@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD12BDE178028CA00156FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD12BDD178028CA00156FFD /* Foundation.framework */; };
+		BFD12BE1178028CA00156FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD12BE0178028CA00156FFD /* main.m */; };
+		BFD12BEC178028DA00156FFD /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD12BEB178028DA00156FFD /* libMRCEnumerable.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFD12BD8178028CA00156FFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFD12BDA178028CA00156FFD /* MRCEnumerable Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MRCEnumerable Example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD12BDD178028CA00156FFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFD12BE0178028CA00156FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD12BE3178028CA00156FFD /* MRCEnumerable Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRCEnumerable Example-Prefix.pch"; sourceTree = "<group>"; };
+		BFD12BEB178028DA00156FFD /* libMRCEnumerable.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libMRCEnumerable.a; path = "../build/Debug-iphoneos/libMRCEnumerable.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD12BD7178028CA00156FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD12BEC178028DA00156FFD /* libMRCEnumerable.a in Frameworks */,
+				BFD12BDE178028CA00156FFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD12BD1178028CA00156FFD = {
+			isa = PBXGroup;
+			children = (
+				BFD12BDF178028CA00156FFD /* MRCEnumerable Example */,
+				BFD12BDC178028CA00156FFD /* Frameworks */,
+				BFD12BDB178028CA00156FFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD12BDB178028CA00156FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD12BDA178028CA00156FFD /* MRCEnumerable Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD12BDC178028CA00156FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD12BEB178028DA00156FFD /* libMRCEnumerable.a */,
+				BFD12BDD178028CA00156FFD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD12BDF178028CA00156FFD /* MRCEnumerable Example */ = {
+			isa = PBXGroup;
+			children = (
+				BFD12BE0178028CA00156FFD /* main.m */,
+				BFD12BE2178028CA00156FFD /* Supporting Files */,
+			);
+			path = "MRCEnumerable Example";
+			sourceTree = "<group>";
+		};
+		BFD12BE2178028CA00156FFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD12BE3178028CA00156FFD /* MRCEnumerable Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD12BD9178028CA00156FFD /* MRCEnumerable Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD12BE8178028CA00156FFD /* Build configuration list for PBXNativeTarget "MRCEnumerable Example" */;
+			buildPhases = (
+				BFD12BD6178028CA00156FFD /* Sources */,
+				BFD12BD7178028CA00156FFD /* Frameworks */,
+				BFD12BD8178028CA00156FFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRCEnumerable Example";
+			productName = "MRCEnumerable Example";
+			productReference = BFD12BDA178028CA00156FFD /* MRCEnumerable Example */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD12BD2178028CA00156FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Marcus Crafter - Red Artisan";
+			};
+			buildConfigurationList = BFD12BD5178028CA00156FFD /* Build configuration list for PBXProject "MRCEnumerable Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFD12BD1178028CA00156FFD;
+			productRefGroup = BFD12BDB178028CA00156FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD12BD9178028CA00156FFD /* MRCEnumerable Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD12BD6178028CA00156FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD12BE1178028CA00156FFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFD12BE6178028CA00156FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFD12BE7178028CA00156FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFD12BE9178028CA00156FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRCEnumerable Example/MRCEnumerable Example-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Classes\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFD12BEA178028CA00156FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRCEnumerable Example/MRCEnumerable Example-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Classes\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD12BD5178028CA00156FFD /* Build configuration list for PBXProject "MRCEnumerable Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD12BE6178028CA00156FFD /* Debug */,
+				BFD12BE7178028CA00156FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD12BE8178028CA00156FFD /* Build configuration list for PBXNativeTarget "MRCEnumerable Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD12BE9178028CA00156FFD /* Debug */,
+				BFD12BEA178028CA00156FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD12BD2178028CA00156FFD /* Project object */;
+}

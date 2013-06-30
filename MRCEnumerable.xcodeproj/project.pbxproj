@@ -627,7 +627,8 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "armv6 armv7 x86_64";
 			};
 			name = Debug;
 		};
@@ -647,7 +648,8 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "armv6 armv7 x86_64";
 			};
 			name = Release;
 		};

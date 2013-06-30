@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6BF6653-FC05-4E8C-A351-005B897438B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MRCEnumerable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F9F19B5-99F4-4426-AAF0-B4EAB87D265A</key>
+		<string>ssh://github.com/crafterm/MRCEnumerable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MRCEnumerable.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F9F19B5-99F4-4426-AAF0-B4EAB87D265A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/crafterm/MRCEnumerable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F9F19B5-99F4-4426-AAF0-B4EAB87D265A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F9F19B5-99F4-4426-AAF0-B4EAB87D265A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MRCEnumerable</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -4,4 +4,7 @@
    <FileRef
       location = "group:MRCEnumerable.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:MRCEnumerable Example/MRCEnumerable Example.xcodeproj">
+   </FileRef>
 </Workspace>
